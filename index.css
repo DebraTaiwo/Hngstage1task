@@ -66,6 +66,11 @@ span{
     font-weight: bold;
 }
 
+.profileName h1{
+    font-weight: bold;
+
+}
+
 .goalSection{
     padding: 10px 30px;
     padding-top:10px ;
@@ -73,10 +78,18 @@ span{
     text-align: justify;
 }
 
+.goalHeading h1 {
+    font-weight: bold;
+}
 
-.GoalPar{
+.goalHeading p{
     padding: 8px 0px;
 }
+
+.goalContent h4{
+    font-weight: bold;
+}
+
 
 .goalContainer{
     display:grid;
@@ -133,13 +146,18 @@ footer{
     }
     .container{
         display: flex;
-        gap: 20px;
+        gap: 30px;
         padding:50px;
-        line-height: 40px;
+    }
+
+    .profileTitle p{
+        line-height: 30px;
+        width: 90%;
+        max-width: 900px;
     }
 
     .goalSection{
-        padding: 50px;
+        padding: 20px 50px;
         padding-top:20px ;
         line-height: 40px;
         text-align: justify;
@@ -147,7 +165,7 @@ footer{
 
     .goalContainer{
         display:grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1.5fr);
     }
     
     .goalContent ul{
@@ -156,7 +174,7 @@ footer{
     
     .linkSection{
         padding:5px 50px;
-        line-height: 30px;
+        line-height: 40px;
         text-align: justify;
     }
     
