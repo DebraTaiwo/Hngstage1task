@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    top:10;
+    width:100%;
+    padding:30px 100px;
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index:99;
+    background-color: lightskyblue;
+    place-content: center;
+    
+}
+
+.NavBar{
+    max-width:var(--max-width);
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.nav-day{
+    font-size: 0.75rem;
+}
+
+.nav-date{
+    font-size: 0.75rem;
+}
+
+.nav-time{
+    font-size:0.75rem;
+    
+}
+
+.container{
+    padding:10px 30px;
+    line-height: 30px;
+    align-items: justify;
+    justify-content: justify;
+    text-align: justify;
+}
+
+.goalSection{
+    padding: 10px 30px;
+    padding-top:10px ;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+.GoalPar{
+    padding: 8px 0px;
+}
+
+.goalContainer{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.goalContent ul{
+    padding:2px 20px
+}
+
+.linkSection{
+    padding:5px 30px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+.link{
+    padding-left: 20px;
+}
+
+.linkSection ol{
+    padding: 20px;
+}
+
+footer{
+    background-color: lightskyblue;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+
+@media(min-width: 768px) {
+    .NavBar{
+        font-size: 24px;
+        font-weight: bold;
+        padding: 10px 50px;
+    }
+
+    .nav-day{
+        font-size: 1.5rem;
+    }
+
+    .nav-date{
+        font-size: 1.5rem;
+    }
+    
+    .nav-time{
+        font-size:1.5rem;
+        
+    }
+    .container{
+        display: flex;
+        gap: 20px;
+        padding:50px;
+        line-height: 40px;
+    }
+
+    .goalSection{
+        padding: 50px;
+        padding-top:20px ;
+        line-height: 40px;
+        text-align: justify;
+    }
+
+    .goalContainer{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .goalContent ul{
+        padding:2px 20px
+    }
+    
+    .linkSection{
+        padding:5px 50px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    
+    
+    .link{
+        padding-left: 20px;
+    }
+    
+    .linkSection ol{
+        padding: 20px;
+    }
+
+    
+    
+
+
+    
+}

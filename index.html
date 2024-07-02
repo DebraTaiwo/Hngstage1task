@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="NavBar" >
+                <div><div class ="nav-day" id="day" data-testid ="currentDateUTC"></div>
+                <div class ="nav-date" id="date" data-testid ="currentDateUTC"></div></div>
+                <div class ="nav-time" id="time" data-testid ="currentTimeUTC"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="./image/profileimage.jpg" alt="profileimage" data-testid="slackProfilePicture">
+        <div class="profileTitle">
+            <h2 class="profileName">Taiwo Deborah Olaitan</h2>
+            <p>(Frontend Developer)</p>
+            <p>Hi there, my slack display name is <span class="slackName" data-testid="slackDisplayName">Kiitan</span> and my slack email is <span class="slackEmail" data-testid="slackEmail">taiwodeborah2020@gmail.com</span>, I'm a passionate frontend developer with a knack for crafting stunning use interfaces. With expertise in HTML, CSS and JavaScript, I bring designs to life, ensuring seamless user experience. Constantly exploring the latest web technologies and design trends, I strive to create responsive, accessible and pixel-perfect applications. Let's build something amazing together.</p>
+        </div>
+    </div>
+
+    <div class="goalSection">
+        <div class="goalHeading">
+            <h1>My Goals</h1>
+            <p class="GoalPar">Goals is the process of identifying and articulating what is aimed to be acheived within a specified timeframe. Below are my goals for the next two years in tech industry.</p>
+        </div>
+        <div class="goalContainer">
+            <div class="goalContent">
+                    <h4>1. Skill Enhancement</h4>
+                    <ul>
+                        <li>Deepen expertise in React, Vue.js or Angular to build more dynamic and high-performance applications.</li>
+                        <li>Gain proficiency in backend technologies like Node.js, Express and databases such as MongoDB or PostgresSQL to become a full-stack developer</li>
+                    </ul>       
+            </div>
+            <div class="goalContent">
+                <h4>2. Professional Development</h4>
+                <ul>
+                    <li>Earn certifications in relevant technologies and frameworks to validate my skills and knowledge.</li>
+                    <li>Actively contribute to open-source projects to gain practical experience and give back to the community.</li>
+                </ul>       
+            </div>
+            <div class="goalContent">
+                <h4>3. Project Milestones</h4>
+                <ul>
+                    <li>I will develop and launch at least three personal or collaborative projects that solve real-world problems and showcase them in my portfolio.</li>
+                    <li>I will refactor and enhance existing projects to improve perfomance, user experience and code quality.</li>
+                </ul>       
+            </div>
+            <div class="goalContent">
+                <h4>4. Career Progression</h4>
+                <ul>
+                    <li>I aim to secure a role in a leading tech company or startup where innovative ideas are valued and ther's room for growth</li>
+                    <li>I will develop my leadership skills by mentoring junior developers, leadeing small teams or managing projects.</li>
+                </ul>       
+            </div>
+            <div class="goalContent">
+                <h4>5. Project Milestones</h4>
+                <ul>
+                    <li>Aim to share knowledge and experiences by writing technical blogs or tutorial on platforms like medium or personal blog.</li>
+                    <li>Build connections with other tech ethusiasts and professionals through Linkedlin, Github and tech communities</li>
+                </ul>       
+            </div>
+        </div>
+    </div>
+
+        <div class="linkSection">
+            <p>I am deeply grateful to HNG for the opportunity given to participate in the HNG11 internship programe and for also helping me see reasons to mapped out my plans in the tech industry for the next two years.</p>
+            <p>Click on the link below to learn more about HNG, keywords and scrape websites.</p>
+            <ol type="1">
+                <li><a data-testid="hngLink" href="hng.tech/learn">hng.tech/learn</a></li>
+                <li><a data-testid="keywordLink" href="keyword.dog">keyword.dog</a></li>
+                <li><a data-testid="scarpeanywebLink" href="scrapeanyweb.site">scrapeanyweb.site</a></li>
+            </ol>
+        </div>
+    <footer>
+        <div class="footerContent">
+        <p>Contact me on</p>
+        <p data-testid="slackEmail">taiwodeborah2020@gmail.com</p>
+        </div>
+        
+    </footer>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
