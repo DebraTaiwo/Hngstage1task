@@ -147,10 +147,11 @@ footer{
         display: flex;
         gap: 30px;
         padding:50px;
+        line-height: 40px;
     }
 
     .profileTitle p{
-        line-height: 30px;
+        line-height: 40px;
         width: 90%;
         max-width: 900px;
     }
@@ -191,12 +192,8 @@ footer{
         text-align: justify;
     }
     
-    .link{
-        padding-left: 20px;
-    }
-    
     .linkSection ol{
-        padding: 20px;
+        padding: 25px;
     }
     
 }
