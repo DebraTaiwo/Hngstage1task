@@ -55,7 +55,7 @@ nav{
 
 .container{
     padding:10px 30px;
-    line-height: 30px;
+    line-height: 40px;
     align-items: justify;
     justify-content: justify;
     text-align: justify;
@@ -66,7 +66,7 @@ span{
     font-weight: bold;
 }
 
-.profileName h1{
+.profileName .h1{
     font-weight: bold;
 
 }
@@ -78,12 +78,12 @@ span{
     text-align: justify;
 }
 
-.goalHeading h1 {
+.goalHeading h1{
     font-weight: bold;
 }
 
 .goalHeading p{
-    padding: 8px 0px;
+    padding: 10px 0px;
 }
 
 .goalContent h4{
@@ -95,10 +95,11 @@ span{
     display:grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
+    line-height: 30px;
 }
 
 .goalContent ul{
-    padding:2px 20px
+    padding:5px 20px
 }
 
 .linkSection{
